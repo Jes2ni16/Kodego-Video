@@ -34,6 +34,7 @@ setTimeout(function() {
 headline2.classList.add('head2-in');
 headline2.style.display='block';
 headline1.style.opacity='0';
+headline1.classList.add('h1Out');
   },4000);
 
   setTimeout(function(){

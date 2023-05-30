@@ -37,6 +37,8 @@ margin-left: 20%;
 display: none;
 position: absolute; 
 transition: opacity 0.5s ease-in-out;
+opacity: 1;
+transition: opacity 0.5s ease-in-out;
 }
 
 .slide-in{
@@ -103,7 +105,7 @@ position: absolute;
 
 .logo{
     animation-name: logoSide;
-    animation-duration: 0.6s;
+    animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
    
 }
@@ -114,5 +116,19 @@ position: absolute;
     }
     to{
         transform: translateX(0);
+    }
+}
+
+.h1Out{
+    animation-name: h1Out;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes h1Out{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
     }
 }
