@@ -80,21 +80,21 @@ position: absolute;
 #logo{
     margin-top: -5%;
     left: 60%;
-    position: relative; 
+    position: absolute; 
     width:30%;
     display: none;
 }
 #learn{
-    position: relative;
+    position: absolute;
     width:27%;
-    margin-top: 7%;
+    top: 70%;
     margin-left:33%;
     opacity: 0;
     transition: opacity 1.3s ease-in-out;
 }
 #replay{
-    position: relative;
-    margin-top:-2%;
+    position: absolute;
+   top: 85%;
     width:20%;
     margin-left:38%;
     opacity: 0;
@@ -110,7 +110,7 @@ position: absolute;
 
 @keyframes logoSide{
     from{
-        transform: translateX(-800px);
+        transform: translateX(-100%);
     }
     to{
         transform: translateX(0);
